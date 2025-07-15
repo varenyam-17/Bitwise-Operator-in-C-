@@ -1,0 +1,16 @@
+126.4
+exp4 
+#include<iostream>
+using namespace std;
+int main()
+{
+    int num1,num2;
+    cout<<"Enter a number"<<endl;
+    cin>>num1;
+    cout<<"Enter a number"<<endl;
+    cin>>num2;
+    int n=num1&num2;
+    cout<<"use of AND operator "<<n<<endl;
+    int m=num1|num2;
+    cout<<"use of OR operator "<<m<<endl;
+}
