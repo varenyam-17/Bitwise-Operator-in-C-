@@ -4,28 +4,3 @@ Theory:In C++, bitwise operators are used to perform operations directly on the 
 The bitwise AND (&) operator compares each bit of two numbers and returns a new number whose bits are set to 1 only if both corresponding bits were 1. The bitwise OR (|) operator sets each bit to 1 if at least one of the corresponding bits is 1. The bitwise XOR (^) operator sets each bit to 1 only if the corresponding bits are different. The bitwise NOT (~) operator inverts all the bits of a number, turning 1s into 0s and vice versa.
 Additionally, C++ provides bitwise shift operators: the left shift (<<) moves bits to the left, effectively multiplying the number by powers of two, while the right shift (>>) moves bits to the right, dividing the number by powers of two.
 
-#include<iostream>
-using namespace std;
-int main()
-{
-    int a,b;
-    cout<<"Enter a number"<<endl;
-    cin>>a;
-    cout<<"Enter a number"<<endl;
-    cin>>b;
-    int c,d;
-    c=a&b;
-    d=a|b;
-    int a1,a2,a3,a4;
-    cout<<"Bitwise And "<< c<<endl;
-    cout<<"Bitwise Or "<< d<<endl;
-    a1=a^b;
-    a2=~a;
-    a3=a<<1;
-    a4=a>>2;
-    cout<<"Bitwise Xor "<<a1<<endl;
-    cout<<"Bitwise NOT "<< a2<<endl;
-    cout<<"Bitwise leftshift "<< a3<<endl;
-    cout<<"Bitwise rightshift "<< a4<<endl;
-}    
-    
