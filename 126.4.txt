@@ -1,5 +1,4 @@
-126.4
-exp4 
+Varenyam Singh 24070123126
 #include<iostream>
 using namespace std;
 int main()
@@ -13,4 +12,23 @@ int main()
     cout<<"use of AND operator "<<n<<endl;
     int m=num1|num2;
     cout<<"use of OR operator "<<m<<endl;
+    int a1,a2,a3,a4;
+    cout<<"Enter a number"<<endl;
+    cin>>a1;
+    cout<<"Enter a number"<<endl;
+    cin>>a2;
+    cout<<"Enter a number"<<endl;
+    cin>>a3;
+    cout<<"Enter a number"<<endl;
+    cin>>a4;
+    
+    int ex=a2^a3;
+    cout<<"Exor"<<ex<<endl;
+    int ls=a3<<1;
+    int rs=a4>>1;
+    cout<<"leftshift"<<ls<<endl;
+    cout<<"rightshift"<<rs<<endl;
+ 
+    
+    
 }
