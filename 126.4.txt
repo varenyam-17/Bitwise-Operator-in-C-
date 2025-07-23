@@ -32,3 +32,21 @@ int main()
     
     
 }
+output:
+Enter a number
+33
+Enter a number
+18
+use of AND operator 0
+use of OR operator 51
+Enter a number
+25
+Enter a number
+14
+Enter a number
+12
+Enter a number
+21
+Exor2
+leftshift24
+rightshift10
