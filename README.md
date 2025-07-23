@@ -32,6 +32,7 @@ Algorithm:~>
 - Display all results with proper labels
   
 - End
+  
 Conclusion:
  C++ Bitwise Operators
 
